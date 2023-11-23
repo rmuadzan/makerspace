@@ -1,0 +1,182 @@
+
+.tampil-gambar{
+    height: 300%;
+    width: auto;
+    margin-top: auto;
+}
+.gambar-space{
+  	margin-bottom: 100px;
+}
+
+.tampil-banner{
+    height: 500%;
+    width: auto;
+    margin-top: auto;
+}
+.banner-space{
+  	margin-bottom: 150px;
+}
+
+/*==================
+    Sidebar 
+  ================*/
+
+a.brand-link.long {
+    height: 82px;
+}
+img.brand-image.img-circle {
+    border-radius: 0;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    max-height: none;
+}
+ul.nav.nav-treeview {
+    padding-left: 1rem;
+}
+a.nav-link.right {
+    padding: 20px 0;
+}
+i.far.fa-bell {
+    font-size: 20px;
+}
+.navbar-badge {
+    font-size: 0.7rem;
+}
+.nav-compact .nav-header, .nav-compact .nav-link {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+nav.main-header.navbar.navbar-expand.navbar-white.navbar-light {
+    background-color: #343a40;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255 / 70%);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.form-inline {
+    margin: 16px 0;
+}
+.user-panel .info a {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+i.fas.fa.fa-user-md.mr-2 {
+    margin-right: 0.8rem;
+}
+span.badge.badge-info.right {
+    right: 1.8rem;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #dc3545;
+    color: #fff;
+}
+.badge-info {
+    color: black;
+    background-color: lightgray;
+}
+p.text-menu {
+    font-size: 14px;
+}
+.os-viewport.os-viewport-native-scrollbars-invisible {
+    height: 90%;
+}
+
+/*==================
+   Navbar
+  ================*/
+img.img-circle.elevation-2 {
+    height: auto;
+    width: 3.1rem;
+    margin-right: 15px;
+}
+.image {
+    height: 3rem;
+}
+a.nav-link.pb-4.d-flex {
+    margin-bottom: 26px;
+}
+span.admin {
+    font-weight: 600;
+}
+/*==================
+   DASHBOARD
+  ================*/
+.card-header>.card-tools {
+    margin-right: 0;
+}
+.daterangepicker.opensright:after {
+    display: none;
+}
+.daterangepicker.opensright:before {
+    display: none;
+}
+.card.rekapPelayanan {
+    height: 96%;
+}
+/*==================
+   CONTENT
+  ================
+.offset-md-1 {
+    margin-left: 0;
+}
+.content-wrapper>.content {
+    padding: 15px 0.5rem;
+}
+
+/*==================
+   DAFTAR RESERVASI TAB MENU
+  ================*/
+.card-primary.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #ff0000;
+
+}
+a.nav-link {
+    color: #ff0000;
+}
+a.nav-link:hover {
+    color: black;
+}
+.page-item.active .page-link {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.table td, .table th {
+    padding: 0.65rem;
+}
+table#example1 {
+    text-align: center;
+}
+table#example2 {
+    text-align: center;
+}
+table#example3 {
+    text-align: center;
+}
+
+
+/*==================
+   FOOTER
+  ================*/
+a.footer {
+    color: red;
+}
+/*==================
+   sidebarlogo
+  ================*/
+@media (min-width: 992px){
+    .sidebar-mini.sidebar-collapse.layout-fixed .brand-link {
+        width: 17.6rem;
+        margin: 0;
+    }
+    img.brand-image.img-circle {
+       margin: 0;
+    }
+}
